@@ -36,6 +36,6 @@ export class OIGPowerBattery {
   async getBatteryLevel() {
     this.platform.log.debug(`TEST JSON: ${await this.oigPowerConnectAPI.getBatteryLevel()}`);
 
-    return null;
+    return 98;
   }
 }

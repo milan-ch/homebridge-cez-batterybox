@@ -58,7 +58,7 @@ export class CEZBatteryBoxPlatform implements DynamicPlatformPlugin {
     const devices = [
       {
         uuid: this.api.hap.uuid.generate('cez-batterybox-battery'),
-        name: 'CEZ BatteryBox Battery',
+        name: 'ČEZ BatteryBox Battery',
         consoleName: 'cez-batterybox-battery',
       },
     ];
