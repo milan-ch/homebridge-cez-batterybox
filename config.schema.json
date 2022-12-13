@@ -19,6 +19,13 @@
         "required": true,
         "placeholder": "Password",
         "description": "The password you enter if you visit: https://www.oigpower.cz/ and select login"
+      },
+      "deviceId": {
+        "title": "Device ID",
+        "type": "string",
+        "required": true,
+        "placeholder": "Your Device ID",
+        "description": "Your device ID can be found by logging in https://www.oigpower.cz/"
       }
     }
   }
